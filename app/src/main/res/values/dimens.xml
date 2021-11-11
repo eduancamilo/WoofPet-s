@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="llTopPadding">100dp</dimen>
+    <dimen name="llLetfPadding">10dp</dimen>
+    <dimen name="llRightPadding">10dp</dimen>
+    <dimen name="ivHeightLayout">300dp</dimen>
+    <dimen name="ivBottomMargin">50dp</dimen>
+    <dimen name="tvSizeSubTitle">30sp</dimen>
+    <dimen name="tvSizeTitle">60sp</dimen>
+    <dimen name="tvSizeDescription">21sp</dimen>
+    <dimen name="tvWidthLayout">300dp</dimen>
+    <dimen name="tvMarginButtonTitle">30dp</dimen>
+</resources>

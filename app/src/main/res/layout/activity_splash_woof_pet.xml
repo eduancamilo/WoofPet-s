@@ -6,19 +6,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Splash_WoofPet"
-    android:paddingTop="100dp"
-    android:paddingLeft="10dp"
-    android:paddingRight="10dp"
+    android:paddingTop="@dimen/llTopPadding"
+    android:paddingLeft="@dimen/llLetfPadding"
+    android:paddingRight="@dimen/llRightPadding"
     android:background="@color/primary_color"
     android:orientation="vertical">
 
     <ImageView
         android:id="@+id/ivLogo"
         android:layout_width="wrap_content"
-        android:layout_height="300dp"
+        android:layout_height="@dimen/ivHeightLayout"
         android:src="@drawable/pyg"
         tools:ignore="MissingConstraints"
-        android:layout_marginBottom="50dp"/>
+        android:layout_marginBottom="@dimen/ivBottomMargin"/>
 
     <TextView
         android:id="@+id/tvTextOnePet"
@@ -27,32 +27,32 @@
         android:fontFamily="@font/roboto"
         android:textStyle="bold"
         android:layout_gravity="center_horizontal"
-        android:text="Bienvenidos a"
+        android:text="@string/tvWelcome"
         android:textColor="@color/light_primary_color"
-        android:textSize="30sp" />
+        android:textSize="@dimen/tvSizeSubTitle" />
 
     <TextView
         android:id="@+id/tvTitlePet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="30dp"
+        android:layout_marginBottom="@dimen/tvMarginButtonTitle"
         android:fontFamily="@font/fredoka"
-        android:text="WoofPet's"
+        android:text="@string/tvTitleApp"
         android:textColor="@color/light_primary_color"
-        android:textSize="60sp" />
+        android:textSize="@dimen/tvSizeTitle" />
 
     <TextView
-        android:id="@+id/tvParagraphPet"
-        android:layout_width="300dp"
+        android:id="@+id/tvDescriptionPet"
+        android:layout_width="@dimen/tvWidthLayout"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="15dp"
         android:fontFamily="@font/roboto"
-        android:text="Tu App para el Control de Vacunación y Desparasitación de tu mejor amigo"
+        android:text="@string/tvDescriptionApp"
         android:textAlignment="center"
         android:textColor="@color/light_primary_color"
-        android:textSize="20sp"
+        android:textSize="@dimen/tvSizeDescription"
         android:textStyle="bold" />
 
     <ProgressBar
